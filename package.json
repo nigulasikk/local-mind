@@ -1,13 +1,14 @@
 {
   "name": "local-mind",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "tsx -r dotenv/config src/scripts/test.ts"
+    "test": "tsx -r dotenv/config src/scripts/test.ts",
+    "init": "tsx -r dotenv/config src/scripts/init.ts"
   },
   "dependencies": {
     "@types/node": "18.16.3",
