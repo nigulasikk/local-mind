@@ -1,4 +1,4 @@
-[![local mind banner](./public/shotcut.gif)]
+![local mind banner](./public/shotcut.gif)
 
 # 欢迎来到 Local Mind 项目
 
