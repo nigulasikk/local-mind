@@ -1,8 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+[![local mind banner](./public/shotcut.gif)]
 
-## Getting Started
+# 欢迎来到 Local Mind 项目
 
-First, run the development server:
+Local Mind 是一个本地文件问答应用，它基于 LangChain HNSWLib 和 NEXT.JS 纯 JavaScript 技术栈构建, 是套壳 GPT API 垂类应用的一种工程化实践。
+
+在看了 LangChain，还有一些 Prompt Engineering 应用场景后，有一个灵感：对于我们这些前端 API 工程师来说，基于 LangChain 这类封装优秀的库，配合上 Prompt Engineering 调戏 LLM，用 Next.JS 做一层轻量级后端路由， 最后结合上前端本职工作（设计一个交互良好的界面），就能非常容易地做出一个“套壳”大语言模型的工程应用。
+
+不过得提醒下，这个应用目前只是周末写着玩玩的 Side Project，更多是用来工程上的探索，并没有达到生产可用的水平哦！
+
+## 开始
+
+### 准备工作
+
+- 自备 API KEY: 在.env 文件中，替换 OPENAI_API_KEY 的值
+- 命令行环境具备科学的上网环境 (可使用 proxychains)
 
 ```bash
 npm run dev
@@ -12,25 +23,4 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-[http://localhost:3000/api/hello](http://localhost:3000/api/hello) is an endpoint that uses [Route Handlers](https://beta.nextjs.org/docs/routing/route-handlers). This endpoint can be edited in `app/api/hello/route.ts`.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 更多

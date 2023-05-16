@@ -27,9 +27,9 @@ async  function  askLLM({question, referenceContext}: IAsk) {
     {context}
     
     请综合上述信息,你给出的回复需要包含以下3个字段:
-    1.text: 用于存放你总结性的文字回复
+    1.text: 用于存放你总结性的文字回复,尽量精简
     2.similiarAnswers: 基于我提的问题联想2个不同维度的问题
-    3.reference: 用于显示你参考的上下文原文, reference若不是一句完整的话，用省略号结尾
+    3.reference: 用于显示你参考的上下文原文, reference若不是一句完整的话，用省略号结尾，大概40个字左右
 
     请按照以下JSON格式来回答：
 
